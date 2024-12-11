@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Page</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+ <body class="bg-cover bg-center" style="background-image:url("bgphoto.jpg")">
+    <div class="flex items-center justify-center min-h-screen bg-black bg-opacity-50">
+        <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+            <h2 class="text-2xl font-bold text-center text-red-600 mb-6">LOGIN TO YOUR ACCOUNT</h2>
+
+            <form action="#" method="POST">
+                <div class="mb-4">
+                    <label for="mobile" class="block text-gray-700 font-medium mb-2">Mobile Number</label>
+                    <input type="text" id="mobile" name="mobile" placeholder="Mobile Number" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+
+                <div class="mb-4 relative">
+                    <label for="password" class="block text-gray-700 font-medium mb-2">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500">
+                    <span class="absolute right-4 top-9 cursor-pointer text-gray-500">👁️</span>
+                </div>
+
+                <div class="flex items-center mb-4">
+                    <input type="checkbox" id="remember" name="remember" class="mr-2">
+                    <label for="remember" class="text-gray-700">Remember me</label>
+                </div>
+
+                <button type="submit" class="w-full bg-red-600 text-white font-medium py-2 rounded-md hover:bg-red-700">Login</button>
+            </form>
+
+            <div class="flex justify-between items-center mt-4">
+                <a href="#" class="text-sm text-gray-600 hover:text-red-500">New User? <span class="font-medium text-red-600">Sign Up</span></a>
+                <a href="#" class="text-sm text-gray-600 hover:text-red-500">Forgot Password?</a>
+            </div>
+        </div>
+    </div> 
+
+<!-- 
+    <div class="absolute bottom-0 w-full flex justify-center space-x-4 px-4 pb-8">
+        <img src="https://via.placeholder.com/120" alt="Car 1" class="w-32 h-20 object-cover rounded-md">
+        <img src="https://via.placeholder.com/120" alt="Car 2" class="w-32 h-20 object-cover rounded-md">
+        <img src="https://via.placeholder.com/120" alt="Car 3" class="w-32 h-20 object-cover rounded-md">
+    </div> -->
+</body>
+</html>
